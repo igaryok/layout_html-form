@@ -14,58 +14,58 @@
 </head>
 <body>
   <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" onsubmit="onSubmit(event)" name="task-form">
-    <fieldset class="blocks">
+    <fieldset class="block-of-inputs">
       <legend>Personal information</legend>
-      <label class="inputs">
+      <label class="single-input">
         Surname:
         <input type="text" name="surname" maxlength="35" autocomplete="off" required>
       </label>
-      <label class="inputs">
+      <label class="single-input">
         Name:
         <input type="text" name="name" maxlength="25" autocomplete="off" required>
       </label>
-      <label class="inputs">
+      <label class="single-input">
         How old are You?
         <input data-qa="field-value" type="number" name="age" min="1" max="150" value="12">
       </label>
-      <label class="inputs">
+      <label class="single-input">
         Full date of birth:
         <input type="date" name="date_of_birth">
       </label>
-      <label class="inputs">
+      <label class="single-input">
         I accept the term of the agreement
         <input type="checkbox" name="agree">
       </label>
     </fieldset>
 
-    <fieldset class="blocks">
+    <fieldset class="block-of-inputs">
       <legend>Registration</legend>
-      <label class="inputs">
+      <label class="single-input">
         E-mail:
         <input data-qa="field-placeholder" type="email" name="email" placeholder="email@example.com">
       </label>
-      <label class="inputs">
+      <label class="single-input">
         Password:
         <input type="password" name="password" minlength="8">
       </label>
     </fieldset>
 
-    <fieldset class="blocks">
+    <fieldset class="block-of-inputs">
       <legend>An interesting fact about you!</legend>
-      <label class="inputs">
+      <label class="single-input">
         Do you love cats?
         <input type="radio" name="love_cats" value="Yes"> Yes
         <input type="radio" name="love_cats" value="No"> No
       </label>
-      <label class="inputs">
+      <label class="single-input">
         What is your favorite color?
         <input type="color" name="favorite_color">
       </label>
-      <label class="inputs">
+      <label class="single-input">
         What time do you go to bed?
         <input type="time" name="time_to_bed">
       </label>
-      <label class="inputs">
+      <label class="single-input">
         What are your favorite brand of cars?
         <select size="4" name="favorite_car">
           <option value="bmw">BMW</option>
@@ -74,19 +74,19 @@
           <option value="empty"></option>
         </select>
       </label>
-      <label class="inputs">
+      <label class="single-input">
         How do you rate our work?
         <input type="range"  value="0" name="mark_to_work">
       </label>
     </fieldset>
 
-    <fieldset class="blocks">
+    <fieldset class="block-of-inputs">
       <legend>Additional info:</legend>
-      <label class="inputs">
+      <label class="single-input">
         Comments:
         <textarea name="comments" cols="20" rows="2"></textarea>
       </label>
-      <label class="inputs">
+      <label class="single-input">
           Would you recommend us?
           <select name="recomend">
             <option value="yes">yes</option>
