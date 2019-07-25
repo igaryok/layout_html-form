@@ -2,10 +2,10 @@
   margin-bottom: 20px;
 }
 
-.single-input {
+.input-block {
   display: block;
 }
 
-.single-input:not(:last-child) {
+.input-block:not(:last-child) {
   margin-bottom: 10px;
 }
